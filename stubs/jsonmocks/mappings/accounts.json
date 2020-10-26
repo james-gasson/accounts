@@ -1,0 +1,24 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/accounts"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Cache-Control": "no-cache"
+    },
+    "jsonBody": [
+      {
+        "number": "123",
+        "name": "Savings Account",
+        "type": "Savings",
+        "balanceDate": "06/11/2019",
+        "currency": "AUD",
+        "openingAvailableBalance": "64,000.00"
+      }
+    ]
+  }
+}
+

@@ -1,0 +1,26 @@
+{
+  "request": {
+    "method": "GET",
+    "urlPathPattern": "/accounts/123/transactions"
+  },
+  "response": {
+    "status": 200,
+    "headers": {
+      "Content-Type": "application/json",
+      "Cache-Control": "no-cache"
+    },
+    "jsonBody": [
+      {
+        "accountNumber": "123",
+        "accountName": "Savings Account",
+        "valueDate": "09/11/2019",
+        "currency": "AUD",
+        "debitAmount": "2,000.00",
+        "creditAmount": "0.00",
+        "debitOrCredit": "Debit",
+        "transactionNarrative": "Debit into account."
+      }
+    ]
+  }
+}
+
